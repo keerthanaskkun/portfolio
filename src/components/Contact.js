@@ -26,7 +26,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-   let response = await fetch("https://portfolioserver-imr5.vercel.app/contact", {
+   let response = await fetch("https://portsever-1.vercel.app/", {
 
       method: "POST",
       headers: {
