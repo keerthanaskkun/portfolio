@@ -26,11 +26,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-<<<<<<< HEAD
     let response = await fetch("https://portsever-1.vercel.app/contact", {
-=======
- let response = await fetch("https://portsever-1.vercel.app/contact", {
->>>>>>> 45ea3183301c33fe7f44fb8a606189fbb99cd066
 
       method: "POST",
       headers: {
