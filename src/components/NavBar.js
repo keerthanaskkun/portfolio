@@ -53,7 +53,7 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://linkedin.com/in/keerthana-b-68b20025a"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/keerthanaskkun"><img src={navIcon2} alt="" /></a>
-                <a href="https://leetcode.com/u/Keerthana_B_/"><img src={navIcon3} alt="" /></a>
+                <a href="https://leetcode.com/u/Kekosk-87/"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Contact Me</span></button>
